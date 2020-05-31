@@ -53,7 +53,7 @@ The field for traversing the robot is enclosed by the secondary grid. As we can 
 It's always helpful to have a short list of resources you found useful when you learnt something. It can also be a major time-saver for anyone who's trying to learn the same thing for the first time. It will be helpful for beginners to follow the list sequencially before stepping on to understand this project.
 
 **1** A* intuition I
-[A* Pathfinding (E01: algorithm explanation)](https://www.youtube.com/watch?v=-L-WgKMFuhE&t=265s)
+[A* Pathfinding (E01: algorithm explanation)](<iframe width="560" height="315" src="https://www.youtube.com/embed/-L-WgKMFuhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>)
 
 
 ## Acknowledgments
