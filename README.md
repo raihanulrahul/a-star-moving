@@ -17,7 +17,7 @@ See [A* Learning Sequence](#a-learning-sequence) for a good set of resources for
 
 This program runs A* repeatedly for every new position of the robot. The robot moves to a new position based on the planned path. The path it's going to advance to is planned using the current robot position and obstacles positions. This process continues until the robot reaches its goal.
 
-![](/Flow%20chart.png)
+![](Flow%20chart.png)
 
 ## Key Notes
 
@@ -28,14 +28,14 @@ understanding.
 
 The initial obstacles are loaded before entering the loop that runs A*. The black walls represent the obstacles. Indices of these obstacles are loaded using ``` def obsplan() ``` . These obstacles do not change during the iterations.
 
-![](/initial_obstacles.PNG)  
+![](initial_obstacles.PNG)  
 *Fig: Initial Obstacles*
   
 ### Secondary Grid
 
 The field for traversing the robot is enclosed by the secondary grid. As we can see from the previous section, it's part of the primary obstacles. We call it "grid" because it has its own coordinate system based on the specified ``` grid_size```. For this version of the code, this grid ranges from 0 to 35 in both axes. It's different from the default grid indexing. The conversion from and to the secondary grid is explained at the beginning of the code.
 
-![Secondary Grid](/secondary%20grid%20boundary.PNG)  
+![Secondary Grid](secondary%20grid%20boundary.PNG)  
 *Fig: Secondary Grid*
  
  ### Wall Padding and Obstacle Map Generation
