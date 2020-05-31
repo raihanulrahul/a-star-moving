@@ -16,7 +16,7 @@ A basic knowledge of Python is required to understand the code. It also assumes 
 Basically this program runs A* repeatedly for every new position of the robot. The robot moves to a new position based on the 
 planned path. The path it's going to advance to is planned using the current robot position and obstacles positions. This process continues untill the robot reaches its goal.
 
-<flowchart here>
+![](https://github.com/raihanulrahul/a-star-moving/blob/master/Flow%20chart.png)
 
 ## Key Notes
 
