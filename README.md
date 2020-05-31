@@ -10,7 +10,7 @@ updating obstacles in each iteration of A*.
 ## Prerequisites
 
 Basic knowledge of Python is required to understand the code. It also assumes a good sense of how basic A* works.  
-See [A* Learning Sequence](#a*-learning-sequence) for a good set of resources for learning A* from scratch.
+See [A* Learning Sequence](https://github.com/raihanulrahul/a-star-moving/blob/master/README.md#a-learning-sequence) for a good set of resources for learning A* from scratch.
 
 ## How It Works
 
@@ -51,11 +51,11 @@ The field for traversing the robot is enclosed by the secondary grid. As we can 
 
 It's always helpful to have a shortlist of resources you found useful when you learned something. It can also be a major time-saver for anyone who's trying to learn the same thing for the first time. It will be helpful for beginners to follow the list sequentially before stepping on to understand this project.
 
-**1** [A* Pathfinding (E01: algorithm explanation)](https://youtu.be/-L-WgKMFuhE)-A* Intuition I  
-**2** [Graph Data Structure 6. The A* Pathfinding Algorithm](https://youtu.be/eSOJ3ARN5FM)-A* intuition II  
-**3** [Wikipedia Page](https://en.wikipedia.org/wiki/A*_search_algorithm)-The theory  
-**4** The next step is to read an actual code based on A*. Before jumping into that, make sure you have basic Python and Python OOP   knowledge.
-* **5** [Implementation of A* using Python](https://github.com/AtsushiSakai/PythonRobotics/tree/master/PathPlanning/AStar)
+1. [A* Pathfinding (E01: algorithm explanation)](https://youtu.be/-L-WgKMFuhE)-A* Intuition I  
+2. [Graph Data Structure 6. The A* Pathfinding Algorithm](https://youtu.be/eSOJ3ARN5FM)-A* intuition II  
+3. [Wikipedia Page](https://en.wikipedia.org/wiki/A*_search_algorithm)-The theory  
+4. The next step is to read an actual code based on A*. Before jumping into that, make sure you have basic Python and Python OOP   knowledge.
+5. [Implementation of A* using Python](https://github.com/AtsushiSakai/PythonRobotics/tree/master/PathPlanning/AStar)
 
 
 ## Acknowledgments
