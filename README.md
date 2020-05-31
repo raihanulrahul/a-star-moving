@@ -28,7 +28,7 @@ understanding.
 
 The initial obstacles are loaded before entering the loop that runs A*. The black walls represent the obstacles. Indices of these obstacles are loaded using ``` def obsplan() ``` . These obstacles do not change during the iterations.
 
-![](https://github.com/raihanulrahul/a-star-moving/blob/master/initial_obstacles.PNG)  
+![](/initial_obstacles.PNG)  
 *Fig: Initial Obstacles*
   
 ### Secondary Grid
