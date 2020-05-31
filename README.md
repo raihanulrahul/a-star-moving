@@ -1,11 +1,10 @@
 # A* Grid Traversing Bot
-![](Output_video.mp4)
 
 A simple implementation of A* is modified for a grid traversing object or robot. The robot moves to a new position after scanning and
 updating obstacles in each iteration of A*.
 
 ## Output
-
+Note: The output is 4.5X slower than it appears in the .gif below.
 ![](output.gif)  
 *Fig: Output*
   
