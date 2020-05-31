@@ -5,7 +5,7 @@ updating obstacles in each iteration of A*.
 
 ## Output
 
-![](/output.gif)  
+![](output.gif)  
 *Fig: Output*
   
 ## Prerequisites
