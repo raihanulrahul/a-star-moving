@@ -5,7 +5,7 @@ updating obstacles in each iteration of A*.
 
 ## Output
 
-![](https://github.com/raihanulrahul/a-star-moving/blob/master/output.gif)
+![Output](https://github.com/raihanulrahul/a-star-moving/blob/master/output.gif)
   
 ## Prerequisites
 
@@ -27,13 +27,13 @@ understanding.
 
 The initial obstacles are loaded before entering the loop that runs A*. The black walls represent the obstacles. Indices of these obstacles are loaded using ``` def obsplan() ``` . These obstacles do not change during the iterations.
 
-![](https://github.com/raihanulrahul/a-star-moving/blob/master/initial_obstacles.PNG)
+![Initial Obstacles](https://github.com/raihanulrahul/a-star-moving/blob/master/initial_obstacles.PNG)
   
 ### Secondary Grid
 
 The field for traversing the robot is enclosed by the secondary grid. As we can see from the previous section, it's part of the primary obstacles. We call it "grid" because it has its own coordinate system based on the specified ``` grid_size```. For this version of the code, this grid ranges from 0 to 35 in both axes. It's different from the default grid indexing. The conversion from and to the secondary grid is explained at the beginning of the code.
 
-![](https://github.com/raihanulrahul/a-star-moving/blob/master/secondary%20grid%20boundary.PNG)
+![Secondary Grid](https://github.com/raihanulrahul/a-star-moving/blob/master/secondary%20grid%20boundary.PNG)
  
  ### Wall Padding and Obstacle Map Generation
  
