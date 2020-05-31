@@ -6,7 +6,7 @@ updating obstacles in each iteration of A*.
 
 ## Output
 
-[](https://github.com/raihanulrahul/a-star-moving/blob/master/output.gif)  
+![](https://github.com/raihanulrahul/a-star-moving/blob/master/output.gif)  
 *Fig: Output*
   
 ## Prerequisites
