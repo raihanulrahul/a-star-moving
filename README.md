@@ -54,7 +54,7 @@ For each iteration of A*, a set of new obstacles is generated in different locat
 
 ## A* Learning Sequence
 
-It's always helpful to have a shortlist of resources you found useful when you learned something. It can also be a major time-saver for anyone who's trying to learn the same thing for the first time. It will be helpful for beginners to follow the list sequentially before stepping on to understand this project.
+It's always helpful to have a shortlist of resources you found useful when you learned something. It can also be a major time-saver for anyone who's trying to learn the same thing for the first time. It will be helpful for beginners to follow the list sequentially before stepping on to understanding this project.
 
 1. [A* Pathfinding (E01: algorithm explanation)](https://youtu.be/-L-WgKMFuhE)-A* Intuition I  
 2. [Graph Data Structure 6. The A* Pathfinding Algorithm](https://youtu.be/eSOJ3ARN5FM)-A* intuition II  
