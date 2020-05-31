@@ -17,7 +17,7 @@ See [A* Learning Sequence](#a-learning-sequence) for a good set of resources for
 
 This program runs A* repeatedly for every new position of the robot. The robot moves to a new position based on the planned path. The path it's going to advance to is planned using the current robot position and obstacles positions. This process continues until the robot reaches its goal.
 
-![](Flow%20chart.png)
+![](Flow chart.png)
 
 ## Key Notes
 
