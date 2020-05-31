@@ -36,13 +36,13 @@ The initial obstacles are loaded before entering the loop that runs A*. The blac
 The field for traversing the robot is enclosed by the secondary grid. As we can see from the previous section, it's part of the primary obstacles. We call it "grid" because it has its own coordinate system based on the specified ``` grid_size```. For this version of the code, this grid ranges from 0 to 35 in both axes. It's different from the default grid indexing. The conversion from and to the secondary grid is explained at the beginning of the code.
 
 ![Secondary Grid](secondary_grid_boundary.PNG)  
-*Fig: Secondary Grid*
- 
+*Fig: Secondary Grid*  
+
  ### Wall Padding and Obstacle Map Generation
  
  Wall padding is used to make sure that the robot doesn't collide with obstacles. Each obstacle has been considered to be a center of a circle that has a radius equal to the ```Wall_padding```. The robot itself is considered to be an object surrounded by a clearance circle of radius equal to ```robot_radius```. We just measure the center distance of the robot and an obstacle and compare it to the sum of the radii of both circles. It's based on the corollary which states "For two circles touching each other, the distance between their centers is equal to the sum of their radii (if the circles touch each other externally) or the difference of their radii (if the circles touch each other internally)".To know more about this, visit [this page](https://www.cuemath.com/circles-tangents/circles-touching-each-other/)
   
-  Obstacle map is generated based on the secondary grid. What it means is that each point in the 35 X 35 grid gets scanned to check if it's too close to the obstacles. The value of the point is assigned as 1 if it's dangerous and 0 if it's safe. The point is indexed using it's secondary grid indices in a 2D array. This operation is done by the ```def obsmap``` method.
+  Obstacle map is generated based on the secondary grid. What it means is that each point in the 35 X 35 grid gets scanned to check if it's too close to the obstacles. The value of the point is assigned as 1 if it's dangerous and 0 if it's safe. The point is indexed using it's secondary grid indices in a 2D array. This operation is done by the ```def obsmap``` method.  
   
  ### Generating New Obstacles
  
