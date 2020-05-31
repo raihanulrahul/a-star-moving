@@ -5,19 +5,19 @@ updating obstacles in each iteration of A*.
 
 ## Output
 
-![](https://github.com/raihanulrahul/a-star-moving/blob/master/output.gif)  
+![](/output.gif)  
 *Fig: Output*
   
 ## Prerequisites
 
 Basic knowledge of Python is required to understand the code. It also assumes a good sense of how basic A* works.  
-See [A* Learning Sequence](https://github.com/raihanulrahul/a-star-moving/blob/master/README.md#a-learning-sequence) for a good set of resources for learning A* from scratch.
+See [A* Learning Sequence](#a-learning-sequence) for a good set of resources for learning A* from scratch.
 
 ## How It Works
 
 This program runs A* repeatedly for every new position of the robot. The robot moves to a new position based on the planned path. The path it's going to advance to is planned using the current robot position and obstacles positions. This process continues until the robot reaches its goal.
 
-![](https://github.com/raihanulrahul/a-star-moving/blob/master/Flow%20chart.png)
+![](/Flow%20chart.png)
 
 ## Key Notes
 
@@ -35,7 +35,7 @@ The initial obstacles are loaded before entering the loop that runs A*. The blac
 
 The field for traversing the robot is enclosed by the secondary grid. As we can see from the previous section, it's part of the primary obstacles. We call it "grid" because it has its own coordinate system based on the specified ``` grid_size```. For this version of the code, this grid ranges from 0 to 35 in both axes. It's different from the default grid indexing. The conversion from and to the secondary grid is explained at the beginning of the code.
 
-![Secondary Grid](https://github.com/raihanulrahul/a-star-moving/blob/master/secondary%20grid%20boundary.PNG)  
+![Secondary Grid](/secondary%20grid%20boundary.PNG)  
 *Fig: Secondary Grid*
  
  ### Wall Padding and Obstacle Map Generation
