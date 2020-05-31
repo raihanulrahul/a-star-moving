@@ -5,7 +5,7 @@ updating obstaces in each iteration of A*.
 
 ## Output
 
-<gif here>
+!(https://github.com/raihanulrahul/a-star-moving/blob/master/output.gif)
   
 ## Prerequisites
 
