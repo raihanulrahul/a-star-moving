@@ -9,7 +9,8 @@ updating obstaces in each iteration of A*.
   
 ## Prerequisites
 
-A basic knowledge of Python is required to understand the code. It also assumes a good sense of how basic A* works. See [A* Learning Sequence](#a*-learning-sequence) for a good set of resources for learning A* from scratch.
+A basic knowledge of Python is required to understand the code. It also assumes a good sense of how basic A* works.
+See [A* Learning Sequence](#a*-learning-sequence) for a good set of resources for learning A* from scratch.
 
 ## How It Works
 
@@ -27,13 +28,13 @@ understanding.
 
 The initial obstacles are loaded before entering the loop that runs A*. The black walls represent the obstacles. Indices of these obstacles are loaded using ``` def obsplan() ``` . These obstacles do not change during the iterations.
 
-<screenshot of initial obstacles>
+![](https://github.com/raihanulrahul/a-star-moving/blob/master/initial_obstacles.PNG)
   
 ### Secondary Grid
 
 The field for traversing the robot is enclosed by the secondary grid. As we can see from the previous section, it's part of the primary obstacles. We call it "grid" because it has its own coordinate system based on the specified ``` grid_size```. For this version of the code, this grid ranges from 0 to 35 in both axes. It's clearly different from the default grid indexing. The conversion from and to secondary grid is explained in the beginning of the code.
 
-<SCREEENSHOT OF SECONDARY GRID>
+![](https://github.com/raihanulrahul/a-star-moving/blob/master/secondary%20grid%20boundary.PNG)
  
  ### Wall Padding and Obstacle Map Generation
  
@@ -51,7 +52,8 @@ The field for traversing the robot is enclosed by the secondary grid. As we can 
 
 It's always helpful to have a short list of resources you found useful when you learnt something. It can also be a major time-saver for anyone who's trying to learn the same thing for the first time. It will be helpful for beginners to follow the list sequencially before stepping on to understand this project.
 
-**1**
+**1** A* intuition I
+[A* Pathfinding (E01: algorithm explanation)](https://www.youtube.com/watch?v=-L-WgKMFuhE&t=265s)
 
 
 ## Acknowledgments
